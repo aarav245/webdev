@@ -1,0 +1,67 @@
+:root{
+    /*different background colors for different sizes*/
+    --color-Mob: #FFFFFF;
+    --color-Tab: #4287f5;
+    --color-Laptop: #eb4034;
+    --color-Desktop: #fcba03;
+    --text2-Mob: "Tony Stark is the wealthy son of industrialist and weapons manufacturer Howard Stark and his wife, Maria";
+    --text2-Tab: "Natasha Romanoff, known as Black Widow, was a Russian spy trained in the Red Room, a KGB academy, and later became a founding member of the Avengers. ";
+    --text2-Laptop: "Captain America's backstory centers around Steve Rogers, a frail man rejected for military service in WWII, who becomes a super-soldier after receiving the Super-Soldier Serum.";
+    --text2-Desktop: "Bruce Banner, a brilliant nuclear physicist and biochemist, became the Hulk after being exposed to gamma radiation during an experiment.";
+
+
+}
+/*Default margin and padding*/
+*{
+    Margin: 0;
+    Padding: 0;
+    Box-sizing: border-box;
+
+}
+body{
+    font-size:50px;
+    font-family:sans-serif;
+
+}
+.container{
+    display: grid;
+    place-items: center;
+    background-color:aqua;
+    height: 100vh;
+}
+.text{
+    font-size: 1.5rem;
+
+}
+.text2{
+    font: size 0.5rem;
+}
+/*mobile screen size*/
+@media screen and (min-width: 576px) {
+    .container{
+        background-color: var(--color-Mob);
+        display: var(--text2-Mob);
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container{
+        background-color: var(--color-Tab);
+        display: var(--text2-Tab);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container{
+        background-color: var(--color-Laptop);
+        display: var(--text2-Laptop);
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .container{
+        background-color: var(--color-Desktop);
+        display: var(--text2-Desktop);
+    }
+}
