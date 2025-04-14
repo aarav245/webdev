@@ -18,3 +18,7 @@ function screensize(){
         textchange.innerHTML= "Bruce Banner, a brilliant nuclear physicist and biochemist, became the Hulk after being exposed to gamma radiation during an experiment.";
     }
 }
+window.addEventListener("load",()=>{
+    const img = document.createElement("img");
+    img.alt = "responsive image"
+}
