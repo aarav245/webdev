@@ -1,0 +1,10 @@
+html{
+    scroll-behavior: smooth;
+
+}
+.bg-1{
+    background-color: grey;
+}
+.bg-2{
+    background-color: burlywood;
+}
