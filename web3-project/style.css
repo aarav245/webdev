@@ -8,3 +8,9 @@ html{
 .bg-2{
     background-color: burlywood;
 }
+.navbar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    letter-spacing:5px;
+}
