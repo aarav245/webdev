@@ -11,6 +11,18 @@ html{
 .navbar{
     padding-top: 15px;
     padding-bottom: 15px;
-    font-size: 20px;
+    font-size: 10px;
     letter-spacing:5px;
+}
+.carousel-inner img{
+    width:100%
+}
+.carousel .carousel-item{
+    height:450px;
+
+}
+.carousel-item img{
+    min-height: 450px;
+    position: absolute;
+    object-fit: cover;
 }
