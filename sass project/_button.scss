@@ -1,0 +1,21 @@
+@mixin padding($topbottom,$leftright){
+    padding:$topbottom,$leftright;
+
+}
+.button{
+    @include padding(10px 20px);
+    background-color: $button-color;
+    border: none;
+    text-decoration: none;
+    color: $text-color;
+    display: $display_ib;
+    font-size: 12.5px;
+    border-radius: 5px;
+    &:hover{
+        background-color: maroon;
+    }
+}
+.b1{
+    @include padding(10px 20px);
+    
+}
