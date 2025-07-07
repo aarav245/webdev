@@ -37,7 +37,12 @@ class ui{
         list.appendChild(row)
     }
     static displaymovie = () => {
-        defaultmovies.forEach(movie=>uiEvent.addmovie(movie))
+        defaultmovies.forEach(movie=>ui.addmovie(movie))
     }
 }
 ui.displaymovie()
+//event listener for when button is pressed
+document.querySelector("#movie-form").addEventListener("submit", addtolist)
+function addtolist(e){
+    
+}
